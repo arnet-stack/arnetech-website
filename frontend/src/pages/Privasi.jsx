@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, Mail, MessageCircle, ShieldCheck } from "lucide-react";
 import { Reveal } from "../components/Reveal";
-import { ADDRESS, EMAIL, WA_NUMBER_DISPLAY, WA_URL } from "../constants/site";
+import { EMAIL, WA_NUMBER_DISPLAY, WA_URL } from "../constants/site";
 
 const POINTS = [
     {
@@ -137,7 +137,7 @@ export default function Privasi() {
                                 </a>
                             </div>
                             <p className="mt-10 text-xs leading-relaxed text-white/35">
-                                Terakhir diperbarui: 2026 • Alamat kami: {ADDRESS}
+                                Terakhir diperbarui: 2026
                             </p>
                         </div>
                     </Reveal>

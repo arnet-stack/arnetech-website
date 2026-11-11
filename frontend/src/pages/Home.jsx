@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowRight, ArrowUpRight, Check, MessageCircle, ShieldCheck, Wrench, Zap } from "lucide-react";
+import { ArrowRight, ArrowUpRight, MessageCircle, ShieldCheck, Wrench, Zap } from "lucide-react";
 import KineticHero from "../components/KineticHero";
 import Marquee from "../components/Marquee";
+import Gallery from "../components/Gallery";
 import { Reveal, SectionHeading } from "../components/Reveal";
 import { WA_CONSULT_URL, WIKU_URL } from "../constants/site";
 
@@ -16,7 +17,7 @@ const WHY_US = [
     {
         icon: ShieldCheck,
         title: "Teknisi Lokal Berpengalaman",
-        desc: "Tim profesional siap terjun langsung ke lokasi Anda di Serui dan sekitarnya.",
+        desc: "Tim profesional siap terjun langsung ke lokasi Anda untuk pemasangan dan perbaikan.",
         testid: "why-us-item-tech",
     },
     {
@@ -68,7 +69,7 @@ export default function Home() {
                     <SectionHeading
                         eyebrow="Kenapa Pilih Kami"
                         title="Jaringan andal, ditangani langsung oleh tim lokal"
-                        sub="Infrastruktur modern dan pelayanan teknis berpengalaman yang hadir di Kepulauan Yapen."
+                        sub="Infrastruktur modern dan pelayanan teknis berpengalaman siap menangani jaringan Anda."
                         testid="why-us-heading"
                     />
                     <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -150,6 +151,8 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            <Gallery />
 
             <section className="relative border-t border-white/5 py-24 sm:py-28" data-testid="cta-section">
                 <div className="mx-auto max-w-7xl px-5 sm:px-8">

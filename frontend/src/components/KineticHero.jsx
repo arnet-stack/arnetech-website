@@ -75,7 +75,7 @@ export default function KineticHero() {
                             <span className="absolute inline-flex h-full w-full animate-ping-slow rounded-full bg-orange-400" />
                             <span className="relative inline-flex h-2 w-2 rounded-full bg-orange-400" />
                         </span>
-                        Amaray Networking Technology — Serui, Papua
+                        Amaray Networking Technology
                     </motion.p>
 
                     <h1 className="mt-8 font-display text-[2.6rem] font-bold leading-[1.06] tracking-tight text-white sm:text-6xl lg:text-[4.4rem]">
@@ -102,7 +102,7 @@ export default function KineticHero() {
                         data-testid="hero-subtitle"
                     >
                         ARNETECH menghadirkan jasa konsultasi, instalasi, dan maintenance jaringan
-                        WiFi untuk rumah dan usaha Anda di Serui, Kepulauan Yapen.
+                        WiFi untuk rumah dan usaha Anda.
                     </motion.p>
 
                     <motion.div
@@ -128,19 +128,6 @@ export default function KineticHero() {
                         >
                             Lihat Jasa Kami
                         </Link>
-                    </motion.div>
-
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 1.2, duration: 1 }}
-                        className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-3 font-mono text-[11px] uppercase tracking-[0.26em] text-white/35"
-                    >
-                        <span>Serui</span>
-                        <span className="h-1 w-1 rounded-full bg-orange-500/60" />
-                        <span>Yapen Selatan</span>
-                        <span className="h-1 w-1 rounded-full bg-orange-500/60" />
-                        <span>Kepulauan Yapen</span>
                     </motion.div>
                 </div>
 

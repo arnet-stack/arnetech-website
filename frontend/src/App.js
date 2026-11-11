@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Lenis from "lenis";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import Home from "./pages/Home";
 import Jasa from "./pages/Jasa";
 import Privasi from "./pages/Privasi";
@@ -78,6 +79,7 @@ export default function App() {
                         </Routes>
                     </main>
                     <Footer />
+                    <FloatingWhatsApp />
                 </div>
             </BrowserRouter>
         </ErrorBoundary>

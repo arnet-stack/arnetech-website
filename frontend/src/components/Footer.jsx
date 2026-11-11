@@ -3,7 +3,9 @@ import { ArrowUpRight, Mail, MapPin, MessageCircle } from "lucide-react";
 import { LogoMark } from "./Logo";
 import {
     ADDRESS,
+    BRAND,
     EMAIL,
+    MAP_EMBED,
     WA_NUMBER_DISPLAY,
     WA_URL,
     WIKU_URL,
@@ -42,13 +44,13 @@ export default function Footer() {
                                     ARNETECH
                                 </p>
                                 <p className="mt-1 text-xs leading-relaxed text-white/45">
-                                    {BRAND_NAME}
+                                    {BRAND.name}
                                 </p>
                             </div>
                         </div>
                         <p className="mt-6 max-w-sm text-sm leading-relaxed text-white/50">
-                            Melayani jasa konsultasi, instalasi, dan maintenance jaringan internet
-                            untuk pelanggan umum di Serui, Kepulauan Yapen, dan sekitarnya.
+                            Melayani jasa konsultasi, instalasi dan maintenance jaringan internet
+                            untuk seluruh pelanggan yang ingin menggunakan jasa ARNETECH.
                         </p>
                     </div>
 
@@ -96,7 +98,7 @@ export default function Footer() {
                             data-testid="footer-whatsapp-link"
                             className="group flex items-start gap-4 rounded-2xl border border-white/5 bg-white/[0.03] p-4 transition-all duration-300 hover:border-orange-500/40 hover:bg-white/[0.05]"
                         >
-                            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-orange-400">
+                            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400">
                                 <MessageCircle className="h-5 w-5" />
                             </span>
                             <span>
@@ -113,7 +115,7 @@ export default function Footer() {
                             data-testid="footer-email-link"
                             className="group flex items-start gap-4 rounded-2xl border border-white/5 bg-white/[0.03] p-4 transition-all duration-300 hover:border-orange-500/40 hover:bg-white/[0.05]"
                         >
-                            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-orange-400">
+                            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400">
                                 <Mail className="h-5 w-5" />
                             </span>
                             <span className="min-w-0">
@@ -129,7 +131,7 @@ export default function Footer() {
                             data-testid="footer-address-text"
                             className="flex items-start gap-4 rounded-2xl border border-white/5 bg-white/[0.03] p-4"
                         >
-                            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-orange-400">
+                            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-orange-500/10 text-orange-400">
                                 <MapPin className="h-5 w-5" />
                             </span>
                             <span>
@@ -141,6 +143,20 @@ export default function Footer() {
                                 </span>
                             </span>
                         </div>
+                        <div
+                            data-testid="footer-map"
+                            className="overflow-hidden rounded-2xl border border-white/5 bg-white/[0.03]"
+                        >
+                            <iframe
+                                title="Peta lokasi kantor ARNETECH"
+                                src={MAP_EMBED}
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                                className="h-52 w-full grayscale-[0.35] contrast-[1.05]"
+                                style={{ border: 0 }}
+                                allowFullScreen
+                            />
+                        </div>
                     </div>
                 </div>
 
@@ -149,12 +165,10 @@ export default function Footer() {
                         © {year} Amaray Networking Technology (ARNETECH). Seluruh hak cipta.
                     </p>
                     <p className="font-mono text-xs tracking-[0.28em] text-white/35">
-                        arnetech.net
+                        {BRAND.domain}
                     </p>
                 </div>
             </div>
         </footer>
     );
 }
-
-const BRAND_NAME = "Amaray Networking Technology";

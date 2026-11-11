@@ -13,6 +13,7 @@ export const WA_CONSULT_URL =
 export const EMAIL = "amaraynetworking@gmail.com";
 export const ADDRESS =
     "Jl. Diponegoro, Pasir Hitam, Tarau, Yapen Selatan, Kepulauan Yapen, Serui, Papua 98625";
+export const MAP_EMBED = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&output=embed`;
 
 export function scrollToKontak(navigate, pathname) {
     const go = () => {

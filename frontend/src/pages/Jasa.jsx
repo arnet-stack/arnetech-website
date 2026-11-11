@@ -71,7 +71,7 @@ export default function Jasa() {
                         </h1>
                         <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/55 sm:text-lg" data-testid="jasa-subheading">
                             ARNETECH menyediakan solusi end-to-end untuk kebutuhan internet dan
-                            infrastruktur WiFi Anda di Serui, Kepulauan Yapen — dari perencanaan
+                            infrastruktur WiFi Anda — dari perencanaan
                             awal hingga perawatan jangka panjang.
                         </p>
                     </Reveal>
