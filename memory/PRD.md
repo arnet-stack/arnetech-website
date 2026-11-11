@@ -35,7 +35,7 @@ Pengguna meminta landing page bisnis untuk **Amaray Networking Technology** (ARN
 - [x] Halaman /jasa: 3 layanan detail bergambar + blok konsultasi + tombol WhatsApp (prefilled message).
 - [x] Halaman /kebijakan-privasi: pernyataan inti, 5 poin bernomor, penutup formal + kontak.
 - [x] Navbar responsif (glass, menu mobile animated) + Footer Contact Us.
-- [x] Logo SVG original + favicon; fonts Unbounded/Manrope/JetBrains Mono; lenis smooth scroll; motion framer-motion; data-testid menyeluruh.
+- [x] Logo asli pelanggan (terpasang transparan di navbar, hero, footer + favicon); fonts Unbounded/Manrope/JetBrains Mono; lenis smooth scroll; motion framer-motion; data-testid menyeluruh.
 - [x] Verifikasi: kompilasi sukses, /api 200, screenshot desktop 1440 & mobile 390 semua halaman, tanpa overflow-x.
 
 ## Backlog / Prioritas
