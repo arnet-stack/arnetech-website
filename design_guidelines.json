@@ -1,0 +1,280 @@
+{
+  "brand_identity": {
+    "name": "Amaray Networking Technology",
+    "brand_short": "ARNETECH",
+    "domain": "arnetech.net",
+    "tagline": "Konektivitas Internet Cepat, Stabil & Terpercaya di Serui, Papua",
+    "location": "Serui, Kepulauan Yapen, Papua 98625",
+    "language": "Bahasa Indonesia (100% Text Content)",
+    "aesthetic_archetype": "TACTICAL HIGH-CONTRAST DARK NETWORK (Awwwards Grade)",
+    "tone": "Profesional, Canggih, Terpercaya, Responsif, Berbasis Solusi Jaringan"
+  },
+  "colors": {
+    "mode": "Dark Theme (Void Charcoal Base with Fiery Gradient Accents)",
+    "contrast_strategy": "High Contrast Dark ('kontras tidak jangan cerah' - Deep dark surfaces with precise warm fiery accents)",
+    "palette": {
+      "bg_dark": "#0B0E14",
+      "bg_card": "#131822",
+      "bg_card_hover": "#1A202C",
+      "surface_border": "#262E3E",
+      "surface_border_glow": "rgba(249, 115, 22, 0.3)",
+      "text_primary": "#F9FAFB",
+      "text_secondary": "#9CA3AF",
+      "text_muted": "#6B7280",
+      "gradient_brand": "linear-gradient(135deg, #EF4444 0%, #F97316 50%, #EAB308 100%)",
+      "gradient_brand_text": "bg-gradient-to-r from-red-500 via-orange-500 to-amber-400 bg-clip-text text-transparent",
+      "gradient_glow": "radial-gradient(circle, rgba(249, 115, 22, 0.15) 0%, rgba(239, 68, 68, 0.05) 50%, transparent 70%)",
+      "accent_red": "#EF4444",
+      "accent_orange": "#F97316",
+      "accent_yellow": "#EAB308",
+      "accent_cyan_status": "#06B6D4"
+    }
+  },
+  "typography": {
+    "heading_font": "Space Grotesk / Plus Jakarta Sans / Outfit",
+    "body_font": "Plus Jakarta Sans / Inter",
+    "mono_font": "JetBrains Mono / Fira Code",
+    "scale": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-none",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3_card": "text-xl sm:text-2xl font-semibold",
+      "body_lg": "text-lg text-gray-300 leading-relaxed",
+      "body_base": "text-base text-gray-400 leading-relaxed",
+      "caption": "text-xs uppercase tracking-widest text-orange-400 font-mono"
+    }
+  },
+  "logo_spec": {
+    "svg_structure": "<svg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='arnetech-grad' x1='0%' y1='100%' x2='100%' y2='0%'><stop offset='0%' stop-color='#EF4444'/><stop offset='50%' stop-color='#F97316'/><stop offset='100%' stop-color='#EAB308'/></linearGradient></defs><circle cx='50' cy='80' r='8' fill='url(#arnetech-grad)'/><path d='M30 60 A 28 28 0 0 1 70 60' stroke='url(#arnetech-grad)' stroke-width='6' stroke-linecap='round' fill='none'/><path d='M16 42 A 45 45 0 0 1 84 42' stroke='url(#arnetech-grad)' stroke-width='6' stroke-linecap='round' fill='none'/><path d='M50 20 L50 80' stroke='url(#arnetech-grad)' stroke-width='3' stroke-dasharray='4 4' opacity='0.5'/></svg>",
+    "brand_text": "ARNETECH",
+    "sub_text": "arnetech.net"
+  },
+  "navigation_spec": {
+    "style": "Glassmorphic Floating Nav Bar (`backdrop-blur-xl bg-[#0B0E14]/80 border border-[#262E3E]/60 z-50 sticky top-0`)",
+    "items": [
+      { "label": "Beranda", "href": "/", "type": "internal", "data_testid": "nav-link-home" },
+      { "label": "Daftar WiFi", "href": "https://wiku.app/register/223897802?memberType=ppoe", "type": "external_cta", "data_testid": "nav-link-daftar-wifi" },
+      { "label": "Jasa Kami", "href": "/jasa", "type": "internal", "data_testid": "nav-link-jasa" },
+      { "label": "Hubungi Kami", "href": "#kontak", "type": "anchor", "data_testid": "nav-link-hubungi" },
+      { "label": "Kebijakan & Privasi", "href": "/kebijakan-privasi", "type": "internal", "data_testid": "nav-link-kebijakan-privasi" }
+    ],
+    "header_cta": {
+      "text": "Daftar Sekarang",
+      "href": "https://wiku.app/register/223897802?memberType=ppoe",
+      "data_testid": "nav-header-cta-button"
+    }
+  },
+  "pages_structure_and_content": {
+    "home_page": {
+      "route": "/",
+      "sections": [
+        {
+          "id": "hero",
+          "component": "KineticHero",
+          "title": "Solusi Jaringan & WiFi Terdepan di Kepulauan Yapen",
+          "subtitle": "ARNETECH menyediakan layanan konsultasi WiFi, instalasi jaringan fiber optic, dan perawatan berkala untuk rumah & usaha di Serui, Papua.",
+          "badge": "⚡ ISP & WiFi Specialist Serui, Papua",
+          "animation": "Line-by-line masked reveal with Framer Motion stagger",
+          "cta_primary": {
+            "text": "Daftar Layanan WiFi",
+            "href": "https://wiku.app/register/223897802?memberType=ppoe",
+            "external": true,
+            "data_testid": "hero-cta-register"
+          },
+          "cta_secondary": {
+            "text": "Konsultasi Jasa",
+            "href": "/jasa",
+            "external": false,
+            "data_testid": "hero-cta-services"
+          },
+          "metrics": [
+            { "value": "99.8%", "label": "Uptime Jaringan", "data_testid": "metric-uptime" },
+            { "value": "24/7", "label": "Dukungan Teknis", "data_testid": "metric-support" },
+            { "value": "Serui & Yapen", "label": "Cakupan Area", "data_testid": "metric-coverage" }
+          ]
+        },
+        {
+          "id": "marquee",
+          "component": "NetworkStatusMarquee",
+          "items": [
+            "🔴 FIBER OPTIC INFRASTRUCTURE",
+            "🟡 FAST & STABLE HOME WIFI",
+            "🟠 CONSULTATION & REPAIR",
+            "🔴 24/7 MAINTENANCE SERUI",
+            "🟡 ARNETECH.NET NETWORK",
+            "🟠 KONEKSI TANPA HETIK"
+          ]
+        },
+        {
+          "id": "kenapa-pilih-kami",
+          "component": "WhyChooseUsGrid",
+          "heading": "Kenapa Pilih ARNETECH?",
+          "subheading": "Infrastruktur modern dan pelayanan teknis berpengalaman langsung di Kepulauan Yapen",
+          "features": [
+            {
+              "icon": "Zap",
+              "title": "Koneksi Cepat & Stabil",
+              "desc": "Optimasi bandwidth dan konfigurasi router berstandar tinggi untuk performa tanpa hambatan.",
+              "data_testid": "why-us-item-speed"
+            },
+            {
+              "icon": "ShieldCheck",
+              "title": "Teknisi Lokal Berpengalaman",
+              "desc": "Tim profesional siap terjun langsung ke lokasi Anda di Serui dan sekitarnya.",
+              "data_testid": "why-us-item-tech"
+            },
+            {
+              "icon": "Wrench",
+              "title": "Perawatan & Pemeliharaan Berkala",
+              "desc": "Monitoring proaktif dan penanganan gangguan jaringan dengan respon cepat.",
+              "data_testid": "why-us-item-maintenance"
+            },
+            {
+              "icon": "MessageSquare",
+              "title": "Pengingat Billing via WhatsApp",
+              "desc": "Notifikasi praktis dan ramah langsung ke aplikasi WhatsApp Anda tanpa ribet.",
+              "data_testid": "why-us-item-whatsapp"
+            }
+          ]
+        },
+        {
+          "id": "services-preview",
+          "component": "ServicesPreviewBento",
+          "heading": "Layanan Utama Kami",
+          "subheading": "Solusi komprehensif dari konsultasi hingga perawatan rutin",
+          "cta_link": { "text": "Lihat Detail Jasa Kami →", "href": "/jasa", "data_testid": "services-preview-more-btn" }
+        },
+        {
+          "id": "coverage-map-preview",
+          "component": "CoverageBanner",
+          "title": "Melayani Seluruh Wilayah Serui & Yapen Selatan",
+          "desc": "Hubungi kami hari ini untuk cek ketersediaan jaringan di area rumah atau bisnis Anda.",
+          "data_testid": "coverage-section"
+        }
+      ]
+    },
+    "services_page": {
+      "route": "/jasa",
+      "heading": "Layanan & Jasa Teknologi Jaringan",
+      "subheading": "ARNETECH menyediakan solusi end-to-end untuk kebutuhan internet dan infrastruktur WiFi Anda di Serui, Kepulauan Yapen.",
+      "services_list": [
+        {
+          "id": "konsultasi",
+          "title": "1. Konsultasi & Desain Jaringan WiFi",
+          "desc": "Kami menganalisis lokasi rumah, kantor, atau tempat usaha Anda untuk merancang peta titik akses (access point) dan arsitektur bandwidth yang optimal tanpa blind spot.",
+          "points": [
+            "Survei kelayakan sinyal & pemetaan lokasi",
+            "Rekomendasi perangkat router & switch sesuai budget",
+            "Optimasi alokasi alokasi kecepatan (Quality of Service)"
+          ],
+          "data_testid": "service-detail-konsultasi"
+        },
+        {
+          "id": "instalasi",
+          "title": "2. Instalasi Jaringan & Kabel Fiber/LAN",
+          "desc": "Pemasangan profesional kabel jaringan, perakitan perangkat jaringan, hingga sertifikasi koneksi agar siap digunakan dengan aman dan rapi.",
+          "points": [
+            "Penataan kabel (cable management) rapi & aman",
+            "Pemasangan Access Point indoor & outdoor",
+            "Pengujian stabilitas ping dan throughput kecepatan"
+          ],
+          "data_testid": "service-detail-instalasi"
+        },
+        {
+          "id": "maintenance",
+          "title": "3. Perawatan & Pemeliharaan Jaringan (Maintenance)",
+          "desc": "Layanan pemeliharaan berkala dan perbaikan cepat saat terjadi penurunan kualitas sinyal atau kendala teknis perangkat.",
+          "points": [
+            "Pemeriksaan kesehatan jaringan rutin",
+            "Penanganan gangguan koneksi (troubleshooting)",
+            "Pembaruan firmware & peningkatan keamanan router"
+          ],
+          "data_testid": "service-detail-maintenance"
+        }
+      ],
+      "closing_invitation": {
+        "title": "Siap Mengoptimalkan Jaringan WiFi Anda?",
+        "text": "Jangan biarkan koneksi lambat mengganggu aktivitas harian Anda. Tim teknisi ARNETECH siap membantu Anda menentukan paket dan instalasi terbaik.",
+        "whatsapp_button": {
+          "text": "Konsultasi via WhatsApp Now",
+          "url": "https://wa.me/6281343285565?text=Halo%20Tim%20ARNETECH,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20jaringan",
+          "data_testid": "jasa-whatsapp-cta-button"
+        }
+      }
+    },
+    "privacy_page": {
+      "route": "/kebijakan-privasi",
+      "title": "Kebijakan & Privasi Customer",
+      "last_updated": "Terakhir diperbarui: 2026",
+      "intro_text": "Di ARNETECH (Amaray Networking Technology), kami sangat menghargai privasi dan keamanan data pelanggan kami di Serui, Kepulauan Yapen. Dokumen ini menjelaskan bagaimana data pribadi Anda dikumpulkan, digunakan, dan dilindungi.",
+      "bullet_points": [
+        "Pengumpulan Data Terbatas: Kami hanya mengumpulkan data yang diperlukan untuk registrasi layanan internet, verifikasi alamat pemasangan, serta komunikasi operasional.",
+        "Penggunaan Data Spesifik: Data pribadi Anda (Nama, Alamat, No. Telepon/WhatsApp) digunakan khusus untuk proses instalasi, teknis layanan internet, serta pengiriman pengingat tagihan (billing reminder) WiFi via WhatsApp.",
+        "Pengingat Tagihan WhatsApp: Pengiriman pesan pengingat tagihan bulanan dilakukan secara resmi melalui WhatsApp ARNETECH untuk memudahkan kenyamanan pembayaran Anda tepat waktu.",
+        "Perlindungan & Kerahasiaan Data: ARNETECH tidak akan menjual, menyewakan, atau membagikan data pribadi Anda kepada pihak ketiga untuk kepentingan komersial atau pemasaran di luar layanan ARNETECH.",
+        "Keamanan Informasi: Seluruh data pelanggan disimpan pada sistem aman dengan akses terbatas hanya untuk staf operasional dan teknis yang berwenang."
+      ],
+      "formal_closing": "Dengan menggunakan layanan internet dan konsultasi WiFi dari ARNETECH, Anda menyetujui ketentuan dalam Kebijakan & Privasi ini. Jika Anda memiliki pertanyaan atau ingin memperbarui informasi kontak Anda, silakan hubungi tim kami melalui WhatsApp di 081343285565 atau email amaraynetworking@gmail.com.",
+      "data_testid": "privacy-policy-container"
+    }
+  },
+  "footer_spec": {
+    "brand_info": "Amaray Networking Technology (ARNETECH) — arnetech.net",
+    "contacts": {
+      "whatsapp": {
+        "label": "081343285565",
+        "url": "https://wa.me/6281343285565",
+        "data_testid": "footer-whatsapp-link"
+      },
+      "email": {
+        "label": "amaraynetworking@gmail.com",
+        "url": "mailto:amaraynetworking@gmail.com",
+        "data_testid": "footer-email-link"
+      },
+      "address": {
+        "text": "Jl. Diponegoro, Pasir Hitam, Tarau, Yapen Selatan, Kepulauan Yapen, Serui, Papua 98625",
+        "data_testid": "footer-address-text"
+      }
+    },
+    "quick_links": [
+      { "label": "Beranda", "href": "/" },
+      { "label": "Jasa Kami", "href": "/jasa" },
+      { "label": "Daftar WiFi", "href": "https://wiku.app/register/223897802?memberType=ppoe" },
+      { "label": "Kebijakan & Privasi", "href": "/kebijakan-privasi" }
+    ],
+    "copyright": "© 2026 ARNETECH (Amaray Networking Technology). Hak Cipta Dilindungi Undang-Undang."
+  },
+  "image_urls": {
+    "hero_background": "https://images.unsplash.com/photo-1680992044138-ce4864c2b962?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxmaWJlciUyMG9wdGljJTIwbmV0d29yayUyMGNhYmxlcyUyMHNlcnZlciUyMHJvb20lMjBkYXJrJTIwZ2xvd2luZ3xlbnwwfHx8fDE3OTQ0MzI5NjR8MA&ixlib=rb-4.1.0&q=85",
+    "network_switch_cables": "https://images.unsplash.com/photo-1594915440248-1e419eba6611?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwyfHxuZXR3b3JrJTIwZW5naW5lZXIlMjB0ZWNobmljaWFuJTIwZmliZXIlMjBpbnRlcm5ldCUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3OTQ0MzI5NzF8MA&ixlib=rb-4.1.0&q=85",
+    "technician_at_work": "https://images.unsplash.com/photo-1660330589693-99889d60181e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwZW5naW5lZXIlMjB0ZWNobmljaWFuJTIwZmliZXIlMjBpbnRlcm5ldCUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3OTQ0MzI5NzF8MA&ixlib=rb-4.1.0&q=85",
+    "wifi_router_device": "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDZ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3aWZpJTIwcm91dGVyJTIwc21hcnQlMjBob21lJTIwbmV0d29yayUyMHRlY2h8ZW58MHx8fHwxNzk0NDMyOTcxfDA&ixlib=rb-4.1.0&q=85",
+    "fiber_patch_cord": "https://images.unsplash.com/photo-1624965439943-09e0238644e2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwzfHxuZXR3b3JrJTIwZW5naW5lZXIlMjB0ZWNobmljaWFuJTIwZmliZXIlMjBpbnRlcm5ldCUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3OTQ0MzI5NzF8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "motion": {
+    "engine": "Framer Motion",
+    "hero_reveal": "Masked line reveal with staggerChildren: 0.12, ease: [0.25, 1, 0.5, 1]",
+    "card_hover": "Transform lift -translate-y-1.5 with glowing amber/orange border transition 0.3s ease",
+    "marquee": "react-fast-marquee or CSS animation continuous slow ticker speed 40s linear"
+  },
+  "component_guidelines": {
+    "testing_requirement": "EVERY interactive element, link, card, modal, and key detail MUST include data-testid",
+    "shadcn_components": "Use custom styled Shadcn components (Button, Dialog, Accordion, Card, Toast/Sonner, Sheet for mobile menu)",
+    "mobile_responsive": "Strict mobile-first design with smooth hamburger menu (Sheet component) and compact touch targets"
+  },
+  "instructions_to_main_agent": [
+    "Ensure all text across the whole application is written in correct, natural Bahasa Indonesia.",
+    "Implement the 3 pages: Home ('/'), Jasa Kami ('/jasa'), and Kebijakan & Privasi ('/kebijakan-privasi').",
+    "Use dark theme base #0B0E14 with fiery red-orange-yellow logo gradient accents on borders, text highlights, and key action buttons.",
+    "Make sure the external link 'https://wiku.app/register/223897802?memberType=ppoe' is attached to 'Daftar WiFi' in header nav, hero CTA, and footer.",
+    "WhatsApp link should open wa.me/6281343285565 with a pre-filled greeting message in Bahasa Indonesia.",
+    "Make sure all elements have appropriate data-testid attributes.",
+    "Build smooth page transitions and micro-interactions using Framer Motion and Sonner toast notifications."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Do not use transparent header background without blur: use backdrop-blur-xl bg-[#0B0E14]/80.",
+    "Ensure contrast meets APCA/WCAG standards with crisp high contrast text over dark backgrounds.",
+    "Do not center-align body paragraphs or complex cards; keep text left-aligned for readability.",
+    "All buttons must have visible hover/active states.",
+    "Use sonner for user toasts if interactive forms or actions occur."
+  ]
+}
