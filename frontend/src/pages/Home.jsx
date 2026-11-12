@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { ArrowRight, ArrowUpRight, MessageCircle, ShieldCheck, Wrench, Zap } from "lucide-react";
 import KineticHero from "../components/KineticHero";
 import Marquee from "../components/Marquee";
-import Gallery from "../components/Gallery";
 import { Reveal, SectionHeading } from "../components/Reveal";
 import { WA_CONSULT_URL, WIKU_URL } from "../constants/site";
 
@@ -151,8 +150,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
-            <Gallery />
 
             <section className="relative border-t border-white/5 py-24 sm:py-28" data-testid="cta-section">
                 <div className="mx-auto max-w-7xl px-5 sm:px-8">

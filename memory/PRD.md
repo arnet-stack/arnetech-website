@@ -41,7 +41,7 @@ Pengguna meminta landing page bisnis untuk **Amaray Networking Technology** (ARN
 ## Revisi Terbaru (2026-11-11)
 - Seluruh sebutan lokasi (Serui, Yapen Selatan, Kepulauan Yapen) dihapus dari hero, kartu, halaman jasa, halaman privasi, judul & meta HTML — alamat hanya tampil di footer bagian kontak.
 - Deskripsi footer diganti sesuai kata-kata pemilik: "Melayani jasa konsultasi, instalasi dan maintenance jaringan internet untuk seluruh pelanggan yang ingin menggunakan jasa ARNETECH."
-- Fitur baru: tombol WhatsApp melayang di semua halaman; peta Google Maps alamat kantor di footer; galeri hasil kerja 6 foto (foto stok — MOCKED, siap diganti foto asli tim).
+- Fitur baru: tombol WhatsApp melayang (semua halaman) dan peta Google Maps alamat di footer. Galeri hasil kerja dibuat lalu DIHAPUS kembali atas permintaan pemilik (2026-11-11).
 
 ## Backlog / Prioritas
 - P0: —
